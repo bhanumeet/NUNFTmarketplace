@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "./NFTGallery.module.css";
 import NFTMarketplaceABI from "../abi/Marketplace.abi.json";
 
-const NFTMarketplaceAddress = "0x079c90fdA4A8011cCf54987Ae777DD5bD1530B86";
+const NFTMarketplaceAddress = "0xB142ca65005610D3dA999313552BFCe13B320EA2";
 
 const NFTGallery = () => {
   const [nftMarketplaceContract, setNFTMarketplaceContract] =

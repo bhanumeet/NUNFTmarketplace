@@ -14,7 +14,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 import { IMetadata } from "../interfaces/IMetadata";
 
 import TokenABI from "../abi/Token.abi.json";
-const TOKEN_CONTRACT_ADDRESS = "0xf0b32adf62A93F56C057540bb960303D776F25Fe";
+const TOKEN_CONTRACT_ADDRESS = "0x53a70FFd8A76Bb50Dc018AdF84a6A96D3Da54Cb2";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",

@@ -17,9 +17,9 @@ import { INFT } from "../interfaces/INFT";
 import TokenABI from "../abi/Token.abi.json";
 import MarketplaceABI from "../abi/Marketplace.abi.json";
 const COLLECTION_CONTRACT_ADDRESS =
-  "0xf0b32adf62A93F56C057540bb960303D776F25Fe";
+  "0x53a70FFd8A76Bb50Dc018AdF84a6A96D3Da54Cb2";
 const MARKETPLACE_CONTRACT_ADDRESS =
-  "0x079c90fdA4A8011cCf54987Ae777DD5bD1530B86";
+  "0xB142ca65005610D3dA999313552BFCe13B320EA2";
 
 const OwnedNFTs2 = () => {
   const [nfts, setNfts] = useState<INFT[]>([]);
